@@ -1,0 +1,61 @@
+[
+	{
+	'officeId': 2260,
+	'city': 413, 
+	'typeId': 0, 
+	'isAgency': False, 
+	'isOwn': False, 
+	'showInPopUp': False, 
+	'latitude': 55.176103, 
+	'longitude': 53.804878, 
+	'address': 'с. Бакалы, ул. Мостовая, д. 6', 
+	'agencyName': 'ИП Ташева И.Р.', 
+	'car': 'от Юж. Автовоказала г.Уфы 200 км, от Наб. Челны 140 км. От г. Октябрьский 70 км, Туймазы 60 км \r\n', 'manager': 'Ташева Ильмира Рамильевна ', 
+	'map': '10', 
+	'name': 'TUI - Бакалы', 
+	'walk': 'от автовокзала села Бакалы в 2 минутах пешком. Офис находится через один дом от автовокзала.  \r\n', 
+	'email': [
+			'tasheva.ilmira@yandex.ru'
+			], 
+	'images': [],
+	'subwayIds': [], 
+	'phones':
+			[
+				{'phone': '8 34742 310 90', 'url': 'tel:+73474231090'}, 
+				{'phone': ' 8917 73 48 338', 'url': 'tel:+79177348338'}
+			], 
+	'services': 
+			[
+				{'serviceId': 4, 'name': 'Оплата наличными', 'file': 'FEAB6B38-1ACA-4552-9D5B-610BD9568EB0'}, 
+				{'serviceId': 5, 'name': 'Оплата по безналичному расчету', 'file': '575C3C04-BA97-47A4-B999-51CD962897C9'}, 
+				{'serviceId': 6, 'name': 'Туры в кредит', 'file': '79AEA13F-18FB-4736-A763-7D522142CFF1'}, 
+				{'serviceId': 7, 'name': 'Продажа авиабилетов и ж/д', 'file': 'EB9922D7-0560-4522-A980-85728DA0E7FE'}, 
+				{'serviceId': 8, 'name': 'Подарочные сертификаты', 'file': '399158E1-02C5-41FB-8EEB-28C3EBDD87EC'}, 
+				{'serviceId': 9, 'name': 'Бронирование гостиниц', 'file': '84C4E928-88F9-4E5C-A4FB-6B7504048AA4'}, 
+				{'serviceId': 10, 'name': 'Оформление страховок', 'file': 'A0BB1639-5A73-4ABF-A7E8-D91F3344F27D'}
+			], 
+	'hoursOfOperation':
+			{
+			'workdays': 
+					{
+					'isDayOff': False, 
+					'startStr': '10:00', 
+					'endStr': '17:00', 
+					'start': '10:00:00', 
+					'end': '17:00:00'
+					}, 
+			'saturday': 
+					{
+					'isDayOff': True, 
+					'start': '00:00:00', 
+					'end': '00:00:00'
+					}, 
+			'sunday': 
+					{
+					'isDayOff': True, 
+					'start': '00:00:00', 
+					'end': '00:00:00'
+					}
+			}
+	}
+]

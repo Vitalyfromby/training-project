@@ -1,0 +1,24 @@
+{% extends "main/main.html" %}
+{% load bootstrap4 %}
+
+{% block title %}Вход{% endblock %}
+
+{% block content %}
+
+    <h2>Bxoд</h2>
+
+{% if user.is_authenticated %}
+
+    <p> Вы уже выnолнили вход.</p>
+
+{% else %}
+
+    <form method="post">
+        {% csrf_token %}
+        {% bootstrap_form form layout='horizontal' %}
+        <input type="hidden" name="next" value="{% url 'main:profile' %}">
+        {% buttons submit='Войти' %}{% endbuttons %}
+    </form>
+    <p><a href="{% url 'social:begin' 'vk-oauth2' %}">Войти через ВКонтакте</a></p>
+{% endif %}
+{% endblock %}
